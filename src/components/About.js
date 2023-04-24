@@ -7,9 +7,9 @@ export default function About() {
       <section id="about">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4x1 text-3x1 mb-4 font-medium text-white">'
-              This is Alex (Panabana)
-              <br className="hidden lg:inline-block" />Symmetry is my idea of a good time.
+            <h1 className="title-font sm:text-4x text-3x1 mb-4 font-medium text-white">
+              Hi, I'm Alex (@Panabana)
+              <br className="hidden lg:inline-block" />Passionate about efficiency.
             </h1>
             <p className="mb-8 leading-relaxed">
               World-renowned companies are what I strive to work for one day.
@@ -33,7 +33,7 @@ export default function About() {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="./linkedinalex.jpg"
+              src="./linkedinalex2023.jpg"
             />
         </div>
         </div>
