@@ -67,13 +67,9 @@ export default function Contact() {
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-white sm:text-4xl text-3xl mb-6 font-medium title-font">
             Let's work together
           </h2>
-          <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
@@ -117,6 +113,17 @@ export default function Contact() {
             Submit
           </button>
         </form>
+      </div>
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
+        <nav className="md:py-1 md:pl-4 md:border-1 md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+          <a href="https://www.linkedin.com/in/alexanderbengtsson" className="mr-10 hover:text-white">
+            LinkedIn
+          </a>
+          <p className="mr-10">|</p>
+          <a href="https://www.github.com/panabana" className="mr-10 hover:text-white">
+            GitHub
+          </a>
+        </nav>
       </div>
     </section>
   );

@@ -50,11 +50,50 @@ export const jobs = [
   },
 ];
 
-export const skills = [
+export const programmingSkills = [
   "JavaScript",
+  "TypeScript",
+  "Java",
+  "C#",
+  "Python",
+];
+
+export const ideSkills = [
+  "Visual Studio",
+  "VSCode",
+  "Eclipse",
+  "IntelliJ",
+];
+
+export const techSkills = [
+  "Git",
+  "Bash",
+  "Unix",
+  "Postman",
+  "Docker",
+  "Azure",
+  "Office 365",
+  "REST API",
+  "OOP",
+  "Scrum",
+  "ERP",
+  "Service Desk",
+  ".NET",
+  "UML",
+  "EJB",
+];
+
+export const webSkills = [
+  "HTML",
+  "CSS",
+  "SQL Server (SSMS)",
+  "Dell Servers",
+];
+
+export const frameworkSkills = [
+  "Bootstrap",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Tailwind CSS",
+  "Entity Framework",
+  "ASP.NET Core MVC",
 ];

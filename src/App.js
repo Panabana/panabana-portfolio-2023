@@ -13,7 +13,6 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
-      <Work />
       <Contact />
     </main>
   );

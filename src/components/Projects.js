@@ -11,13 +11,8 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-40">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4x1 text-3x1 font-medium title-font mb-4 text-white">
-            Applications
-          </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This first application bla bla.
-            Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit.
-          </p>    
+            Projects
+          </h1>   
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
